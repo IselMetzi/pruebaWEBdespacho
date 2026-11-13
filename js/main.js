@@ -1,5 +1,5 @@
 /* =========================================================
-   CSEJU Abogados Asociados – Comportamiento del sitio
+   CSEJU Abogados y Consultores – Comportamiento del sitio
    ========================================================= */
 (() => {
   'use strict';
