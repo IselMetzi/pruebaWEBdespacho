@@ -17,6 +17,11 @@
   --texto-suave: #556070;
   --borde: #DCE2EE;
 
+  /*Whasapp color*/
+  --verde-wha: #128C7E;
+  --verde-oscuro-wha: #075E54;
+  
+
   /* Sistema */
   --fuente-titulos: 'Playfair Display', Georgia, 'Times New Roman', serif;
   --fuente-texto: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
@@ -493,7 +498,7 @@ p { margin: 0 0 1em; }
 }
 
 @media (min-width: 640px) { .servicios-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1000px) { .servicios-grid { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 1000px) { .servicios-grid { grid-template-columns: repeat(2, 1fr); } }
 
 /* ---------- Equipo ---------- */
 .team-grid { display: grid; gap: 1.75rem; align-items: start; }
@@ -705,7 +710,7 @@ p { margin: 0 0 1em; }
   gap: .5rem;
   padding: .8rem 1.1rem;
   border-radius: 999px;
-  background: var(--azul-claro);
+  background: var(--verde-wha);
   color: var(--blanco);
   font-weight: 600;
   font-size: .9rem;
@@ -713,7 +718,7 @@ p { margin: 0 0 1em; }
   box-shadow: 0 8px 22px rgba(13, 41, 87, .35);
   transition: transform .2s, background .2s;
 }
-.wa-float:hover { background: var(--azul-secundario); color: var(--blanco); transform: translateY(-3px); }
+.wa-float:hover { background: var(--verde-oscuro-wha); color: var(--blanco); transform: translateY(-3px); }
 @media (max-width: 520px) {
   .wa-float { padding: .85rem; }
   .wa-float span { display: none; }
